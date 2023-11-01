@@ -9,7 +9,7 @@ let host = 'localhost';
 
 app.set('view engine', 'ejs')
 
-// usess static middleware to enable Bootstrap
+// uses static middleware to enable Bootstrap
 app.use("/css", express.static(path.join(__dirname, "node_modules/bootstrap/dist/css"))
 )
 app.use("/js", express.static(path.join(__dirname, "node_modules/bootstrap/dist/js"))
